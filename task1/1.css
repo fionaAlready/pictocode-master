@@ -1,0 +1,118 @@
+.wrapper-main {
+    width: 1981px;
+    height: 844px;
+    background-color: #013365;
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 0
+}
+.main-left {
+    margin-top: 25px;
+    width: 460px;
+
+}
+.main-center{
+    justify-content: center;
+    width: 1061px;
+    background-color: #dddddd;
+    flex-direction: column;
+
+}
+.main-right {
+    margin-top: 25px;
+    width: 460px;
+
+}
+.left-text{
+    color:white;
+    font-size: 25px;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px dotted #527593;
+    width: 70%;
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+.left-text img{
+    width: 40px;
+    height: 40px;
+
+}
+.right-text img{
+    width: 40px;
+    height: 40px;
+}
+.title{
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    color:#971707;
+    width: 954px;
+    background-color:#ede07d;
+    font-size: 35px;
+    padding: 20px;
+    text-indent: 6px;
+    font-weight: 900;
+    text-shadow: -1px 0 #971707, 0 1px #971707;
+    /*1px 0 #971707, 0 -1px #971707;*/
+    letter-spacing:2px;
+    font-family: Arial, serif;
+}
+.text1{
+    margin-top: 0;
+    margin-left: 20px;
+    width: 954px;
+    font-size: 30px;
+    background-color:#fbf9e6;
+    padding: 20px;
+    font-family: Helvetica, serif;
+    line-height: 1.5;
+}
+.text2{
+    margin-bottom: -30px;
+    margin-left: 20px;
+    width: 90%;
+    color:#284d78;
+    text-shadow: -1px 0 #284d78, 0 1px #284d78;
+    letter-spacing:1px;
+    font-size: 35px;
+    text-indent: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, serif;
+}
+
+.text3{
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 90%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Helvetica, serif;
+    line-height: 1.5;
+}
+.text4{
+    margin-left: 20px;
+    width: 90%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Helvetica, serif;
+    line-height: 2;
+    font-style: italic;
+}
+.right-text{
+    color:white;
+    font-size: 25px;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    width: 70%;
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+}
+
